@@ -1,0 +1,55 @@
+/*Generalidades*/
+
+:root{
+    --global-font-size: 36px;
+    --medium-font-size: 17px;
+    --golden-color: rgb(238, 194, 49);
+    --white-color: #fff;
+    --blue-color: #2482ee;
+    --margin-center: 0 auto;
+    --black-color: rgb(0, 0, 0);
+    --small-font-size: 10px;
+}
+
+body{
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+    font-size: var(--global-font-size);
+    background-color: var(--white-color);
+    margin: 0;
+    color: var(--black-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*Navigation Bar*/
+
+.imagen{
+    width: 250px;
+    height: 180px;
+    padding: 10px;
+}
+
+header{
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    left: 500px;
+    bottom: 100px;
+}
+
+.nav__button, .action__button{
+    padding: 10px 30px;
+    margin: 0 25px;
+    font-size: var(--medium-font-size);
+}
+
+.button{
+    border-radius: 3px;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+} 
