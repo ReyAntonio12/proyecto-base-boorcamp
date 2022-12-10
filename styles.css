@@ -9,6 +9,7 @@
     --margin-center: 0 auto;
     --black-color: rgb(0, 0, 0);
     --small-font-size: 10px;
+    --grey--color: (rgb(160, 160, 153));
 }
 
 body{
@@ -131,7 +132,74 @@ span:hover{
     box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 
-/* .iconos{
-    border: 1px var(--blue-color) solid;
-    border-radius: 3px;
-} */
+/*Seccion de Planes de inversion*/
+
+.section__box2{
+    position: relative;
+    font-size: var(--medium-font-size);
+    text-align: center;
+}
+
+.box--imagen{
+    width: 200px;
+    height: 150px;
+}
+
+.box__plan1{
+    position: absolute;
+    left: 55px;
+}
+
+.box__plan2{
+    position: absolute;
+    left: 700px;
+}
+
+.box__plan1, .box__plan2{
+    border-radius: 5px;
+    background-color: rgb(206, 205, 202);
+    padding: 0.25rem 0;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.box__plan1:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.box__plan2:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+/*Seccion numero 3 de la pagina*/
+
+.section__box3{
+    position: relative;
+}
+
+.action__box{
+    position: absolute;
+    top: 410px;
+    left: 55px;
+    text-align: center;
+}
+
+.action__box h3{
+    font-size: var(--medium-font-size);
+}
+
+.action__box p{
+    font-size: 12px;
+}
+
+.box3--imagen{
+    position: absolute;
+    top: 360px;
+    left: 800px;
+    width: 400px;
+    height: 250px;
+}
+
+.advertencia{
+    color: var(--grey--color)
+}
