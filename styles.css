@@ -64,7 +64,7 @@ nav{
 .header__introduction{
     margin: var(--margin-center);
     text-align: center;
-    background-image: linear-gradient(rgba(153, 144, 144, 0.5), rgba(102, 100, 100, 0.5)), url(assets/undraw_Bitcoin_re_urgq.png);
+    background-image: linear-gradient(rgba(212, 212, 212, 0.5), rgba(102, 100, 100, 0.5)), url(assets/undraw_Bitcoin_re_urgq.png);
     padding: 50px;
 }
 
@@ -90,11 +90,48 @@ nav{
     object-fit: cover;
 } */
 
-.fondo--degradado{
-    background: rgba(0,0,0,0.4);
-    background-image: linear-gradient(to top,
-    rgba(0,0,0,0.8) 0%,
-    rgba(0,0,0,0) 60%,
-    rgba(0,0,0,0.8) 100%
-    );
+
+/*Secciones de information*/
+
+.section__box{
+    background-image: linear-gradient(rgba(247, 240, 240, 0.733), rgba(190, 189, 189, 0.719)), url(assets/undraw_Transfer_money_re_6o1h.png);
 }
+
+.section1--encabezado{
+    font-size: 35px ;
+    text-decoration: underline;
+    text-decoration-color: var(--blue-color);
+}
+
+.informacion{
+    font-size: var(--medium-font-size);
+}
+
+.section1{
+    margin: 10px;
+    border: 1px var(--blue-color) groove;
+    border-radius: 3px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.section1--encabezado2{
+    font-size: 25px;
+}
+
+span{
+    border-radius: 3px;
+    background-color: beige;
+    padding: 35px 35px;
+    margin: 0 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+span:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+/* .iconos{
+    border: 1px var(--blue-color) solid;
+    border-radius: 3px;
+} */
