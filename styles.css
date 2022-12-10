@@ -203,3 +203,18 @@ span:hover{
 .advertencia{
     color: var(--grey--color)
 }
+
+/*Footer*/
+
+footer{
+    position: relative;
+    top: 620px;
+    background-color: rgb(54, 47, 250,);
+    padding: 30px;
+    color: white;
+}
+
+.footer__box p{
+    font-size: var(--small-font-size);
+    text-align: center;
+}
