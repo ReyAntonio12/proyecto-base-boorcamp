@@ -209,7 +209,7 @@ span:hover{
 footer{
     position: relative;
     top: 620px;
-    background-color: rgb(54, 47, 250,);
+    background: rgb(54, 47, 250) ; 
     padding: 30px;
     color: white;
 }
@@ -218,3 +218,13 @@ footer{
     font-size: var(--small-font-size);
     text-align: center;
 }
+
+.footer--inicio{
+    color: white;
+    font-size: var(--medium-font-size);
+    transition: 0.3s ease;
+}
+.footer--inicio:hover{
+    color: lightblue;
+}
+
